@@ -1,3 +1,4 @@
+.. _highlight: bash
 Goal
 ====
 
@@ -18,3 +19,32 @@ Currently nothing is decided about search frontend.
 .. _Scrapy: https://scrapy.org/
 .. _Elasticsearch: https://www.elastic.co/products/elasticsearch
 .. _elasticorn: http://elasticorn.net/
+
+Requirements
+============
+
+- Python 2.7
+
+- Pip
+
+- Make
+
+Installation
+============
+Run::
+
+    make install
+
+Usage
+=====
+
+Run::
+
+    make crawl
+
+Possible improvements
+=====================
+
+- Allow to crawl a single version of a single documentation.
+
+- Handle multiple languages.
