@@ -29,6 +29,8 @@ Requirements
 
 - Make
 
+- Elasticsearch on localhost:9200
+
 Installation
 ============
 Run::
@@ -40,7 +42,7 @@ Usage
 
 Run::
 
-    make crawl
+    make full
 
 Possible improvements
 =====================
@@ -48,3 +50,10 @@ Possible improvements
 - Allow to crawl a single version of a single documentation.
 
 - Handle multiple languages.
+
+TODOS
+=====
+
+- Improve crawling of different structures.
+
+- Improve "content", remove blank lines.

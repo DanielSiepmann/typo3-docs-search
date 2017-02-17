@@ -1,5 +1,3 @@
-#!/bin/env python
-
 import scrapy
 
 
@@ -60,6 +58,7 @@ class TYPO3VersionSpider(scrapy.Spider):
                 s for s in response.css('.rst-current-version::text').extract()
                 if s.strip()
             ).strip().replace('v: ', ''),
+            'language': 'en',
         }
         # Will get filled with specific information, depending on content
         further_information = {}
